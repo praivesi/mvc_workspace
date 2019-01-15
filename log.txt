@@ -1,0 +1,35 @@
++ spring framework
+------------------------------------
+jsp
+java
+eclipse - editor
+jsp - el (expression language)
+
++ JSTL(JSP Standard Tag Library)
+ : jsp action tag - 커스텀이 가능
+ => 잘 되어 있는 tag를 모아둔 라이브러리
+
+cf) jQuery : javascript 잘 되어 있는 것들을 모아놓은 라이브러리
+JSTL 도 jQuery 처럼 이식해서 써야함 --> 조금 불편하긴한데 기능이 굿
+자주 이식해서 써야 되는 것들을 eclipse의 snippet 에 넣어두면 편함
+
+
+웹 사이트 만들 떄 관리자용 따로, 사용자용 페이지 따로 만들 것이 아니라
+페이지 하나에서 권한별로 보여주는 걸 결정하는 게 합리적이다. 이때 사용하는 것이
+JSTL의 c:choose 이다.
+
++ MVC pattern
+ : jsp (디자인, logic, 흐름) 모두 한 페이지에 들어 있음 => model1 방식
+Model, View, Control
+
++ Model2 (Model1 에 비해 훨씬 유지보수가 쉬움)
+화면 : View => jsp
+DB연결, 데이터 조작 : Model => Java
+데이터 흐름 : Control => Servlet
+(* 웹 페이지에서 db에 접속하려면 자바가 필요했음. 그래서 jsp 가 생겨남. jsp에서 스크립틀릿 안의 자바 코드를 통해 DB 접근)
+
+servlet - 웹에서 동작하는 작은 java 프로그램
+오버라이딩 + 오버로딩 = 다형성
+
+jsp 파일은 보통 root 가 WebContent
+

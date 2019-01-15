@@ -4,3 +4,10 @@
 1월 15, 2019 01:10:16.38 
 1월 15, 2019 01:10:16.38 KLIB_SelfTest return : KLR_OK
 1월 15, 2019 01:10:26.00 [2212:14784:0115/011026.008:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+1월 15, 2019 21:04:23.47 NEW SESSION
+1월 15, 2019 21:04:23.47 [7956:14648:0115/210423.456:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -21
+1월 15, 2019 21:04:25.60 [7956:14648:0115/210425.602:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+1월 15, 2019 21:05:46.54 [7956:6224:0115/210546.547:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+1월 15, 2019 21:05:46.90 
+1월 15, 2019 21:05:46.90 KLIB_SelfTest return : KLR_OK

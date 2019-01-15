@@ -1,0 +1,6 @@
+package kr.co.kgitbank.action;
+
+// Model
+public class TestAction {
+
+}

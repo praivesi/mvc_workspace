@@ -26,6 +26,5 @@
 	<!-- ex) el로 같은 코드 -->
 	
 	<h2>ID : ${param.id }</h2>
-
 </body>
 </html>
