@@ -1,0 +1,22 @@
+package kr.co.kgitbank.action;
+
+import java.util.Calendar;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class TimeAction {
+	public String execute(HttpServletRequest req, HttpServletResponse resp) {
+		long time = System.currentTimeMillis();
+		
+		Calendar cal = Calendar.getInstance();
+		
+		req.setAttribute("year", cal.get(cal.YEAR));
+		req.setAttribute("month", cal.get(cal.MONTH));
+		req.setAttribute("date", cal.get(cal.DATE));
+		
+		req.setAttribute("time", time);
+		
+		return "/time.jsp";
+	}
+}

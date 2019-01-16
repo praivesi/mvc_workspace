@@ -11,3 +11,12 @@
 1월 15, 2019 21:05:46.54 [7956:6224:0115/210546.547:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
 1월 15, 2019 21:05:46.90 
 1월 15, 2019 21:05:46.90 KLIB_SelfTest return : KLR_OK
+
+1월 16, 2019 19:05:11.22 NEW SESSION
+1월 16, 2019 19:05:11.22 [12372:7576:0116/190511.223:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+1월 16, 2019 19:05:34.05 [12372:7576:0116/190534.050:ERROR:connection_factory_impl.cc(408)] Failed to connect to MCS endpoint with error -106
+1월 16, 2019 19:05:44.78 [12372:3148:0116/190544.788:ERROR:account_tracker.cc(240)] AccessTokenFetched error: Connection failed (-106).
+1월 16, 2019 19:05:45.48 [12372:3148:0116/190545.487:ERROR:account_info_fetcher.cc(59)] OnGetTokenFailure: Connection failed (-106).
+1월 16, 2019 19:09:28.26 [12372:3148:0116/190928.268:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+1월 16, 2019 19:09:28.44 
+1월 16, 2019 19:09:28.44 KLIB_SelfTest return : KLR_OK

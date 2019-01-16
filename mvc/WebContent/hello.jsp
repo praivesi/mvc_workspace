@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>hello.jsp</title>
 </head>
 <body>
 	<h1>Hello MVC World</h1>

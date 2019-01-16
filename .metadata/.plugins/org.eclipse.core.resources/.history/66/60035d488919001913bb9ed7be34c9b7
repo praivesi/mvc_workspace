@@ -1,0 +1,12 @@
+package kr.co.kgitbank.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class TimeAction {
+	public String execute(HttpServletRequest req, HttpServletResponse resp) {
+		long time = System.currentTimeMillis();
+		
+		req.setAttribute("time", time);
+	}
+}

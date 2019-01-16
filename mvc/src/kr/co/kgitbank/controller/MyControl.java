@@ -9,7 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import kr.co.kgitbank.action.IpAction;
 import kr.co.kgitbank.action.TestAction;
+import kr.co.kgitbank.action.TimeAction;
 
 // 서블릿 만드는 방법
 // 1. 서블릿 상속 (HttpServlet, GenericServlet)
@@ -37,11 +39,19 @@ public class MyControl extends HttpServlet {
 		String viewPage = null;
 		
 		TestAction ta = null;
-		
+		IpAction ia = null;
+		TimeAction tia = null;
+			
 		if(cmd == null || cmd.equals("hello")) {
 			ta = new TestAction();
 			viewPage = ta.execute(req, resp);
-		} // if end
+		}else if(cmd.equals("ip")) {
+			ia = new IpAction();
+			viewPage = ia.execute(req, resp);
+		}else if(cmd.equals("time")) {
+			tia = new TimeAction();
+			viewPage = tia.execute(req, resp);
+		}
 		
 		RequestDispatcher rd = req.getRequestDispatcher(viewPage);
 		

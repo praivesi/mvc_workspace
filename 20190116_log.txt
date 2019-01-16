@@ -1,0 +1,23 @@
+c:>mysql>bin 경로를 시스템 환경 변수 Path 편집 => JAVA_HOME 앞에 이 경로 추가 + ;
+
+'root'@'localhost' 에서 'localhost' 는 IP 임. 여기선 자기 자신이어서 localhost.
+
+
++ MVC
+
+1. 사용자는 처음에 controller 를 만남
+2. Controller 는 Model 로부터 로직과 주소를 받음
+3. Controller 는 로직 처리 후 View로 전달
+
+servlet 에서 model로 데이터를 옮기려면
+model 단에서 req, resp 를 받아주어야 함
+
+model에서 req 에 데이터를 실어놓으면 브라우저가 알아서 실어감(데려감)
+
+Q) requsetDispatcher 의 작동 방식 ?
+
+
+
+--) 몸값 - 알고리즘, java 몸값 - 스레드
+
+xml 은 HTML 과 달리 tag 를 내가 커스터마이징 할 수 있다. -> 탄력있는 (eXtensible)

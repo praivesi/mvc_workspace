@@ -1,0 +1,11 @@
+[mysqld]
+character-set-server=utf8
+
+basedir=C:/mysql
+
+datadir=C:/mydata/data
+
+port=3306
+
+[client]
+default-character-set=utf8
