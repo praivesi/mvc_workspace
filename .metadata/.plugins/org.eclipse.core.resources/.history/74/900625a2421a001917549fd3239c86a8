@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- xml의 문법과 규칙을 잘 따르고 있는 문서
+	: well formed document
+ -->
+
+<students>
+	<student sid="s100">
+		<name>홍길동</name>
+		<age>20</age>
+	</student>
+		<student sid="s200">
+		<name>유관순</name>
+		<age>17</age>
+	</student>
+</students>

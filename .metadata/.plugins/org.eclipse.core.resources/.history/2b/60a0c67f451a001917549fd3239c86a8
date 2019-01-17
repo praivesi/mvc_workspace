@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD : Document Type Definition -->
+<!--  dtd는 내부 혹은 외부 파일에서 적용 가능 -->
+
+<!-- dtd 규칙이 잘 적용된 문서 : validate documnet 
+
+
+<--
+	ex) <!DOCTYPE 루트엘리먼트명 [
+		<!ELEMENT 엘리먼트명(속성명)>
+		,
+		,
+		]>
+-->
+
+<!DOCTYPE students[
+	<!ELEMENT students (student)+>
+	<!ELEMENT student (name, age)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+]>
+
+<students>
+	<student>
+		<name></name>
+		<age></age>
+	</student>
+	
+</students>
