@@ -24,3 +24,6 @@
 1월 17, 2019 21:04:16.81 NEW SESSION
 1월 17, 2019 21:04:16.81 [13792:16100:0117/210416.808:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
 1월 17, 2019 21:04:17.19 [13792:16100:0117/210417.190:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+1월 17, 2019 21:54:23.76 [13792:16100:0117/215423.759:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+1월 17, 2019 21:54:23.98 
+1월 17, 2019 21:54:23.98 KLIB_SelfTest return : KLR_OK
