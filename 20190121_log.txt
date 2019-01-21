@@ -1,0 +1,2 @@
+인부 만들고, 공장 만들고.. DB 접속할 때마다 이걸 해야 하니 귀찮아 => DAO 쓰쟈
+DAO : Data Access Object

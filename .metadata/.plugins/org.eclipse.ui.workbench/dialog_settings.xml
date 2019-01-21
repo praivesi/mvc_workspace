@@ -26,4 +26,6 @@
 			<item value="org.eclipse.ui.Examples/org.eclipse.wst.xml.examples"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>

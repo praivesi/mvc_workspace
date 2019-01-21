@@ -52,12 +52,31 @@ public class DeptMain {
 			System.out.println("---------------------------");
 			
 			// 1건 조회
-			Object obj = ss.selectOne("selectOneByDeptno", 10);
+			/*Object obj = ss.selectOne("selectOneByDeptno", 10);
 			DeptVO vo1 = (DeptVO) obj;
-			System.out.println(vo1.getDname());
+			System.out.println(vo1.getDname());*/
 			
+			System.out.println("----------------------------");
+			// 데이터 입력하기
+			/*DeptVO vo2 = new DeptVO();
+			vo2.setDeptno(50);
+			vo2.setDname("itbank");
+			vo2.setLoc("jongro3");
 			
+			ss.insert("insertOneDept", vo2);*/
 			
+			System.out.println("------------------------------");
+			// 데이터 수정하기
+			/*DeptVO vo3 = new DeptVO();
+			vo3.setDeptno(50);
+			vo3.setDname("spring");
+			vo3.setLoc("danseong");
+			
+			ss.update("updateOneDept", vo3);*/
+			
+			System.out.println("--------------------------");
+			// 데이터 삭제하기
+			ss.delete("deleteOneDept", 50);
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
